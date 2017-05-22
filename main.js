@@ -24,7 +24,7 @@ function prev(){
 	// à chaque click, on décrémente la position
 	num--;
 
-	if (num < images.length) {
+	if (num < 0) {
 		num = images.length-1;
 	}
 	// Changer la source : aller chercher l'index 'num'
