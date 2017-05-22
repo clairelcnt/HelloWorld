@@ -15,10 +15,8 @@ function next(){
 	if (num >= images.length) {
 		num = 0;
 	}
-	else {
-		// Changer la source : aller chercher l'index 'num'
-		slider.src = [num];	
-	}	
+	// Changer la source : aller chercher l'index 'num'
+	slider.src = images[num];		
 }
 
 function prev(){
@@ -29,8 +27,6 @@ function prev(){
 	if (num < images.length) {
 		num = images.length;
 	}
-	else {
-		// Changer la source : aller chercher l'index 'num'
-		slider.src = [num];	
-	}	
+	// Changer la source : aller chercher l'index 'num'
+	slider.src = images[num];		
 }
