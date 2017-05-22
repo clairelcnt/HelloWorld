@@ -51,7 +51,7 @@ body, body *{
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
-background-color: #f6f5f5;
+background-color: #fff;
 text-align: center;
 font-family: Arial, sans-serif;
 }
@@ -79,7 +79,7 @@ h1 {
 }
 
 button {
-	background-color: grey;
+	background-color: #ff5050;
     color: white;
     border: none;
     text-transform: uppercase;
