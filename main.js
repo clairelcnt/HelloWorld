@@ -21,7 +21,7 @@ function next(){
 
 function prev(){
 	var slider = document.getElementById('theSlider');
-	// à chaque click, on incrémente la position
+	// à chaque click, on décrémente la position
 	num--;
 
 	if (num < images.length) {
