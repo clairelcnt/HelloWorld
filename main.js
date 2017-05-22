@@ -1,8 +1,8 @@
 // Dans 'images', les images de mon slider
 var images = [
-	"images/nightlife_1.jpg",
-	"images/nightlife_2.jpg",
-	"images/nightlife_3.jpg"
+	"http://www.sololearn.com/uploads/slider/1.jpg",
+	"http://www.sololearn.com/uploads/slider/2.jpg",
+	"http://www.sololearn.com/uploads/slider/3.jpg"
 ]
 
 var num = 0;
