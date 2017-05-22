@@ -1,8 +1,5 @@
 // Dans 'images', les images de mon slider
 var images = [
-	// "http://www.sololearn.com/uploads/slider/1.jpg",
-	// "http://www.sololearn.com/uploads/slider/2.jpg",
-	// "http://www.sololearn.com/uploads/slider/3.jpg"
 	"images/1.jpg",
 	"images/2.jpg",
 	"images/3.jpg",
@@ -28,7 +25,7 @@ function prev(){
 	num--;
 
 	if (num < images.length) {
-		num = images.length;
+		num = images.length-1;
 	}
 	// Changer la source : aller chercher l'index 'num'
 	slider.src = images[num];		
