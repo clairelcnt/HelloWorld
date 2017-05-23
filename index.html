@@ -6,15 +6,17 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- <script type="text-javascript" src="js/jquery.min.js"></script> -->
 	<link rel="stylesheet" href="css/style.css">
-	<script src="main.js"></script>
+	<!-- data-main attribute tells require.js to load scripts/main.js after require.js loads. -->
+  <script data-main="scripts/main" src="scripts/require.js"></script>
+	<script src="scripts/main.js"></script>
 </head>
 <body>
 
-	<h1>Initiation (Git) Clarinette !! </h1>
+	<h1>Initiation Git</h1>
 	<div id="slider">
-		<button id="previous" onclick="prev()">Previous très chère</button>
+		<button id="previous" onclick="prev()">Previous</button>
 		<img id="theSlider" src="images/1.jpg" alt="nightlife">
-		<button id="next" onclick="next()">Next très chère</button>
+		<button id="next" onclick="next()">Next</button>
 	</div>
 
 </body>
